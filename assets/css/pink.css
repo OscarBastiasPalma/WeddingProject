@@ -1,0 +1,16 @@
+.event-section .event-item-inner span,
+.couple-section .social-links a i,
+.couple-section .couple h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover{
+    color:#f76c6f;
+}
+
+.couple-section .social-links a i,
+.couple-section .couple img{
+    border-color: #f76c6f;
+}
+.event-section,
+.couple-section .social-links a:hover i{
+    background-color: #f76c6e99;
+}
