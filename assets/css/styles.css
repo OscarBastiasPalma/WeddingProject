@@ -210,7 +210,7 @@ footer{
 
 }
 .couple-section{
-    padding: 80px 0 100px;
+    padding: 80px 0 80px;
 }
 .couple-section .couple{
     flex:0 0 50%;
@@ -265,7 +265,7 @@ footer{
 }
 
 .couple-section .social-links{
-    padding-top:40px;
+    padding-top:30px;
 }
 .couple-section .social-links a{
     display: inline-block;
