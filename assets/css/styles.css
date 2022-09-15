@@ -255,6 +255,7 @@ footer{
    font-family: 'Great Vibes',cursive;
    font-weight: normal;
    letter-spacing: 2px;
+   
 
 }
 .couple-section .couple p{
@@ -285,12 +286,17 @@ footer{
     color: #f3f2f1
 }
 
+/* TAJERA DE INVITACION */
 .event-section{
     padding:80px 0 80px;
 }
 
 .event-section .section-title h2{
     color: #ffffff;
+    letter-spacing:3px;
+    color: #000000;
+
+
 }
 
 .event-section .event-item{
@@ -330,6 +336,7 @@ footer{
     border-bottom: 1px solid #cccccc;
     padding-bottom:5px;
     display: inline-block;
+    
 }
 
 .event-section .event-item-inner span{
@@ -374,6 +381,18 @@ footer{
 .event-section .map-links a:hover i{
     color: #f3f2f1
 }
+
+/* LISTA DE DESEOS */
+.event-desire {
+    padding:120px 0 120px;
+
+}
+.event-desire .section-title h2{
+    color: #000000;
+    letter-spacing:3px;
+}
+
+
 
 /* FOOTER */
 
