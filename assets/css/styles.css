@@ -310,6 +310,7 @@ footer{
     max-width: 100%;
     position: relative;
 }
+
 .event-section .event-item-inner:before{
     content: "";
     position: absolute;
@@ -372,4 +373,67 @@ footer{
 }
 .event-section .map-links a:hover i{
     color: #f3f2f1
+}
+
+/* FOOTER */
+
+.footer {
+    padding:120px 0 120px;
+}
+
+.footer .footer-content{
+    flex:0 0 100%;
+    max-width: 100%;
+    padding:0 15px;
+}
+.footer .footer-content .couple-name{
+    width:400px;
+    height:400px;
+    /* border: 1px solid #cccccc; */
+    border-radius: 50%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    z-index: 1;
+
+}
+
+.footer .footer-content .couple-name img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: rotate(100deg);
+}
+
+.footer .footer-content .couple-name h2{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #000000;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer .footer-content .couple-name h2 span{
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    display: block;
+    font-size: 30px;
+
+
+}
+
+.footer .footer-content p{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #000000;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
 }

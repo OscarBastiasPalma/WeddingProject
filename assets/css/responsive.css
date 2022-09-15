@@ -21,7 +21,6 @@
         flex: 0 0 100%;
         max-width: 100%;
         padding: 0 15 px;
-        background-color:aqua;
 
     }
 }
@@ -30,6 +29,11 @@
     .event-section .event-item{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .footer .footer-content .couple-name{
+        width:500px;
+        height:500px;
+      
     }
 }
 
@@ -46,5 +50,33 @@
         padding: 0 15 px;
 
     }
+    .footer .footer-content .couple-name{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer .footer-content .couple-name{
+        width:300px;
+        height:300px;
+      
+    }
+
+    
+    .footer .footer-content .couple-name h2{
+        font-size: 40px;
+
+    }
+    .footer .footer-content .couple-name h2 span{
+       
+        font-size: 25px;
+    
+    
+    }
+
+    .footer .footer-content p{
+        font-size: 30px;
+
+
+    }
+
 
 }
