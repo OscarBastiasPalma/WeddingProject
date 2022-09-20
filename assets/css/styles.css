@@ -62,7 +62,7 @@ footer{
 }
 .section-title  h2{
    font-size:45px;
-   color:#ffffff;
+   color:#000000;
    font-weight: 700;
    font-family: 'Great Vibes', cursive;
    letter-spacing: 1.5px;
@@ -290,6 +290,11 @@ footer{
 .event-section{
     padding:80px 0 80px;
 }
+.event-invitacion{
+
+    padding:80px 0 80px;
+
+}
 
 .event-section .section-title h2{
     color: #ffffff;
@@ -382,6 +387,8 @@ footer{
 }
 
 /* LISTA DE DESEOS */
+
+
 .event-desire {
     padding:120px 0 120px;
 
